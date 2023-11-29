@@ -1,0 +1,12 @@
+000001 IDENTIFICATION DIVISION. 
+000002 PROGRAM-ID. variables.
+000003 AUTHOR. ben-james-davis.
+000004 DATE-WRITTEN. 28th-november-2023
+000005 DATA DIVISION. 
+000006  WORKING-STORAGE SECTION.
+000007   01 my-number PIC 99 VALUE ZERO.
+000006 PROCEDURE DIVISION.
+000008     DISPLAY "The value of my-number is: " my-number.
+000009     MOVE 10 TO my-number.
+000010     DISPLAY "now the value of my-number is: " my-number.
+000011     STOP RUN.

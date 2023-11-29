@@ -1,0 +1,19 @@
+000001 IDENTIFICATION DIVISION.
+000002 PROGRAM-ID. conditional-statements.
+000003 AUTHOR. ben-james-davis.
+000004 DATE-WRITTEN. 29th-november-2023.
+000005 
+000006 DATA DIVISION. 
+000007  WORKING-STORAGE SECTION. 
+000008   01 my-number PIC 9 VALUE ZERO .
+000009
+000010 PROCEDURE DIVISION.
+000011     DISPLAY "Enter a number: " WITH NO ADVANCING.
+000012     ACCEPT my-number.
+000013     IF my-number > 5 THEN
+000014        DISPLAY "That number is bigger than five."
+000015     ELSE
+000016        DISPLAY "That number is less than five"
+000017     END-IF.
+000018
+000019     STOP RUN.
